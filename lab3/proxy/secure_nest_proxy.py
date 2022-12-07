@@ -2,7 +2,6 @@
 
 
 class SecureNestProxy (Nest):
-    #   private readonly INest nest
     def __init__(self, nest):
         self.nest = nest
 

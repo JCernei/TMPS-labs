@@ -4,7 +4,6 @@ from lab3.facade.carnivore import Carnivore
 
 
 class DinoEcosystemFacade:
-    # private readonly Soil soil;
     def __init__(self, soil):
         self.soil = soil
 
